@@ -226,7 +226,7 @@ print_install "Membuat direktori xray"
     chmod +x /var/log/xray
     touch /var/log/xray/access.log
     touch /var/log/xray/error.log
-    mkdir -p /var/lib/hadesx >/dev/null 2>&1
+    mkdir -p /var/lib/kyt >/dev/null 2>&1
     # // Ram Information
     while IFS=":" read -r a b; do
     case $a in
@@ -347,7 +347,7 @@ echo ""
 if [[ $host == "1" ]]; then
 echo -e "   \e[1;32mPlease Enter Your Subdomain $NC"
 read -p "   Subdomain: " host1
-echo "IP=" >> /var/lib/hadesx/ipvps.conf
+echo "IP=" >> /var/lib/kyt/ipvps.conf
 echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
 echo ""
@@ -632,9 +632,9 @@ systemctl daemon-reload
 systemctl restart qmtr
 systemctl enable qmtr
 # // Installing UDP Mini
-mkdir -p /usr/local/hadesx/
-wget -q -O /usr/local/hadesx/udp-mini "${REPO}badvpn/udp-mini"
-chmod +x /usr/local/hadesx/udp-mini
+mkdir -p /usr/local/kyt/
+wget -q -O /usr/local/kyt/udp-mini "${REPO}badvpn/udp-mini"
+chmod +x /usr/local/kyt/udp-mini
 wget -q -O /etc/systemd/system/udp-mini-1.service "${REPO}badvpn/udp-mini-1.service"
 wget -q -O /etc/systemd/system/udp-mini-2.service "${REPO}badvpn/udp-mini-2.service"
 wget -q -O /etc/systemd/system/udp-mini-3.service "${REPO}badvpn/udp-mini-3.service"
@@ -801,11 +801,11 @@ fi
 
 clear
 # banner
-echo "Banner /etc/hadesx.txt" >>/etc/ssh/sshd_config
-sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/hadesx.txt"@g' /etc/default/dropbear
+echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
+sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/kyt.txt"@g' /etc/default/dropbear
 
 # Ganti Banner
-wget -O /etc/hadesx.txt "${REPO}ssh/issue.net"
+wget -O /etc/kyt.txt "${REPO}ssh/issue.net"
 print_success "Fail2ban"
 }
 
@@ -1016,8 +1016,8 @@ function password_default() {
 domain=$(cat /etc/xray/domain)
     MYIP=$(curl -sS ipv4.icanhazip.com)
     userdel jame > /dev/null 2>&1
-    Username="hadesx"
-    Password=hadesx
+    Username="kyt"
+    Password=kyt
     mkdir -p /home/script/
     chmod 777 /home/script/
     useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
