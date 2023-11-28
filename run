@@ -167,7 +167,6 @@ mai="datediff "$Exp" "$DATE""
 clear
 # REPO    
     REPO="https://raw.githubusercontent.com/Hadesxv2/autoscript/main/"
-    #REPOKU="https://myridtunnel.my.id/"
 
 ####
 start=$(date +%s)
@@ -272,7 +271,7 @@ else
 fi
 }
 
-# myrid PROJECT
+# Hadesx PROJECT
 clear
 function nginx_install() {
     # // Checking System
