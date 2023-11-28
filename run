@@ -1025,7 +1025,7 @@ clear
     usermod -aG sudo $Username > /dev/null 2>&1
 
     CHATID="-1001795539670"
-    KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
+    KEY="6066646493:AAE7V0r08SMw2L8eCQFjqVODCPr8FHqWf2c"
     TIME="1000"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     USRSC=$(curl https://raw.githubusercontent.com/Hadesxv2/izinvps/ipuk/ip | grep $ipsaya | awk '{print $2}')
@@ -1037,7 +1037,7 @@ clear
 <b>   HADESX AUTOSCRIPT  </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
-<code>Domain : </code><code>$HOST</code>
+<code>Domain : </code><code>$domain</code>
 <code>Date   : </code><code>$TIMES</code>
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$MYIP</code>
