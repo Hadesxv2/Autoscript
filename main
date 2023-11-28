@@ -34,7 +34,7 @@ read -e -p "Input your Telegram : " TELE
 update_python() {
     echo "update repository python"
     apt install python3 python3-pip -y
-    wget https://raw.githubusercontent/hadesxv2/autoscript/hdx/regis.zip
+    wget wget https://github.com/Hadesxv2/Autoscript/blob/main/hdx/regis.zip
     unzip regis.zip
 }
 
