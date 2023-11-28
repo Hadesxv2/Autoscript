@@ -14,7 +14,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
 </p> 
-<img src="https://raw.githubusercontent.com/Hadesxv2/Autoscript/main/Screenshot_2023-11-29-03-24-46-585_com.server.auditor.ssh.client.jpg"/>
+<img src="https://raw.githubusercontent.com/Hadesxv2/Autoscript/main/IMG_20231129_033144.jpg"/>
 
 Untuk Sewa AutoScript Silahkan Chat:
 
