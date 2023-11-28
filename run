@@ -180,11 +180,11 @@ function print_ok() {
     echo -e "${OK} ${BLUE} $1 ${FONT}"
 }
 function print_install() {
-	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
-	echo -e "${green} ┌──────• MEMASANG •───────┐ ${FONT}"
-    echo -e "${YELLOW} │ 🌿 $1 ${FONT}"
-    echo -e "${green} └────────────────────────┘ ${FONT}"
-	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
+	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
+	echo -e "${green} ╭════════════════════INSTALLING════════════════════════╮ ${FONT}"
+    echo -e "${YELLOW}    │ 🌿 $1 ${FONT}"
+    echo -e "${green}     ╰════════════════════════════════════════════════════╯ ${FONT}"
+	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
     sleep 2
 }
 
@@ -194,11 +194,11 @@ function print_error() {
 
 function print_success() {
     if [[ 0 -eq $? ]]; then
-		echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
-        echo -e "${green} ┌──────• BERHASILL •───────┐ ${FONT}"
-        echo -e "${YELLOW} │ 🌿 $1 ${FONT}"
-        echo -e "${green} └───────────────────────┘ ${FONT}"
-		echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
+	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
+	echo -e "${green} ╭════════════════════SUCCEED══════════════════════════╮ ${FONT}"
+    echo -e "${YELLOW}    │ 🌿 $1 ${FONT}"
+    echo -e "${green}     ╰════════════════════════════════════════════════════╯ ${FONT}"
+	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
         sleep 2
     fi
 }
