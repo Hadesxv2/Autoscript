@@ -46,9 +46,9 @@ clear;clear;clear
 
   # // Banner
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
-echo -e "  Welcome To 𝐇𝐀𝐃𝐄𝐒𝐗 𝐀𝐔𝐓𝐎𝐒𝐂𝐑𝐈𝐏𝐓 Manager ${BLUE}( New Edition ${NC}${BLUE})${NC}"
+echo -e "  Welcome To 𝐇𝐀𝐃𝐄𝐒𝐗 𝐀𝐔𝐓𝐎𝐒𝐂𝐑𝐈𝐏𝐓 Manager ${BLUE}( New Edition ${BLUE})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍${NC} ${BLUE}(${NC}${BLUE} Store ${NC}${BLUE})${NC}"
+echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍 ${BLUE}( Store ${BLUE})${NC}"
 echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱 ${BLUE}( 2023 ${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
@@ -181,7 +181,7 @@ function print_ok() {
 }
 function print_install() {
 	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
-	echo -e "${green} ╭════════════════════INSTALLING════════════════════════╮ ${FONT}"
+	echo -e "${green}     ╭════════════════════INSTALLING════════════════════════╮ ${FONT}"
     echo -e "${YELLOW}    │ 🌿 $1 ${FONT}"
     echo -e "${green}     ╰════════════════════════════════════════════════════╯ ${FONT}"
 	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
@@ -195,7 +195,7 @@ function print_error() {
 function print_success() {
     if [[ 0 -eq $? ]]; then
 	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
-	echo -e "${green} ╭════════════════════SUCCEED══════════════════════════╮ ${FONT}"
+	echo -e "${green}     ╭════════════════════SUCCEED══════════════════════════╮ ${FONT}"
     echo -e "${YELLOW}    │ 🌿 $1 ${FONT}"
     echo -e "${green}     ╰════════════════════════════════════════════════════╯ ${FONT}"
 	echo -e "${green} ◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇ ${FONT}"
