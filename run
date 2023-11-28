@@ -48,8 +48,8 @@ clear;clear;clear
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo -e "  Welcome To 𝐇𝐀𝐃𝐄𝐒𝐗 𝐀𝐔𝐓𝐎𝐒𝐂𝐑𝐈𝐏𝐓 Manager ${BLUE}( New Edition ${NC}${BLUE})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍${NC}${BLUE}(${NC}${BLUE} Store ${NC}${BLUE})${NC}"
-echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱${BLUE}( 2023 ${BLUE})${NC}"
+echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍${NC} ${BLUE}(${NC}${BLUE} Store ${NC}${BLUE})${NC}"
+echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱 ${BLUE}( 2023 ${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
 sleep 3
